@@ -1,7 +1,7 @@
 module "jx" {
   source  = "jenkins-x/jx/google"
   version = "1.10.11"
-  gcp_project = "jenkins-x"
+  gcp_project = "rapids-gpuci"
   cluster_name = "jx-cluster"
 }
 
